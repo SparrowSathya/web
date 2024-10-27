@@ -22,7 +22,6 @@
   
   .nav > .nav-header > .nav-title {
     position: relative;
-    margin-left: 45px;
     display: inline-block;
     font-size: 22px;
     color: #fff;
@@ -84,11 +83,11 @@
  }
 
   
-  @media (max-width:750px) {
+  @media (max-width:850px) {
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
-      /* float: left; */
+      float: left;
       /* right: 0px; */
       top: 0px;
     }
@@ -106,6 +105,10 @@
       width: 25px;
       height: 10px;
       border-top: 2px solid #eee;
+    }
+    .nav > .nav-header > .nav-title{
+      margin-top: 2px;
+      margin-left: 32px;
     }
     .nav > .nav-links {
       position: absolute;
@@ -155,13 +158,34 @@
       position: absolute;
       right: 0;
       margin:10px 60px;
+      /* z-index: 1; */
+    
+    }
+    .nav > .box:hover input{
+      width: 180px;
+    }
+    .nav .user{
+      position: absolute;
+      right: 0;
+      margin: 6px 20px;
     }
   }
 
-  .box {
-    /* position: absolute; */
-    /* right: 0; */
+  .user{
+    position: absolute;
+    display: inline-block;
+    margin: 8px 0px;
     
+
+  }
+  .user a{
+    font-size: 30px;
+    color: #fff;
+  }
+  .box {
+    position: absolute;
+    /* right: 0; */
+    margin: 13px 35px;
     float: center;
     height: 25px;
     display: inline-flex;
@@ -256,7 +280,7 @@ p {
 .edit-btn:hover {
   background-color: #e05d2b;
 }
-ion-icon{
+/* ion-icon{ */
   font-size: 50px;
 
-}
+/* } */
