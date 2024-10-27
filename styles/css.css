@@ -87,7 +87,7 @@
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
-      float: left;
+      /* float: left; */
       /* right: 0px; */
       /* top: 0px; */
     }
@@ -157,7 +157,10 @@
       /* display: inline-flex; */
       position: absolute;
       right: 0;
+      padding: 10px;
       margin:10px 60px;
+      border-radius: 50px;
+      height: 33px;
       /* z-index: 1; */
     
     }
@@ -167,7 +170,10 @@
     .nav .user{
       position: absolute;
       right: 0;
-      margin: 6px 20px;
+      margin: 3px 15px 0px 0px;
+    }
+    .nav .user a{
+      font-size: 40px;
     }
   }
 
@@ -280,7 +286,8 @@ p {
 .edit-btn:hover {
   background-color: #e05d2b;
 }
-/* ion-icon{ */
-  font-size: 50px;
+.ion-icon{
+  font-size: 40px;
 
-/* } */
+
+}
