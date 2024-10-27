@@ -113,6 +113,7 @@
       overflow-y: hidden;
       top: 50px;
       left: 0px;
+      z-index: 1;
     }
     .nav > .nav-links > ul li a {
       display: block;
@@ -242,4 +243,8 @@ p {
 
 .edit-btn:hover {
   background-color: #e05d2b;
+}
+ion-icon{
+  font-size: 50px;
+
 }
