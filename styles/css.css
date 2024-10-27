@@ -147,13 +147,14 @@
     }
   }
   .container {
-    margin: 10px 30px;
+    margin: 10px 35px;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
     width: 90%;
     text-align: center;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
   
 }
 header {
@@ -171,7 +172,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .circle {
@@ -200,7 +201,7 @@ p {
   display: inline-block;
   background-color: #f26d3d;
   color: white;
-  padding: 10px 20px;
+  padding: 8px 12px;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
