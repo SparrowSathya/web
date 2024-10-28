@@ -74,6 +74,26 @@
  margin-left: 80px;
  margin-right: 10px;
  }
+ .fa-facebook{
+  font-size: 20px;
+  color: #316FF6;
+}
+.fa-instagram{
+  font-size: 20px;
+  color:  #cd486b;
+}
+.fa-telegram{
+  font-size: 20px;
+  color: #0088cc;
+}
+#you > .fa-youtube{
+  padding: 5px;
+  font-size: 25px;
+  color: #fff;
+  background-color: #FF0000;
+  border-radius: 10px;
+  
+}
 
  .nav .nav-links ul a i{
     background-color: #fff;
@@ -87,7 +107,7 @@
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
-      float: left;
+      /* float: left; */
       /* right: 0px; */
       /* top: 0px; */
     }
@@ -108,7 +128,7 @@
     }
     .nav > .nav-header > .nav-title{
       margin-top: 2px;
-      margin-left: 32px;
+      margin-left: 36px;
     }
     .nav > .nav-links {
       position: absolute;
@@ -142,7 +162,7 @@
           margin-left: 40%;
       }
       .nav .nav-links ul a.icon{
-        margin-left: 33%;
+        margin-left: 35%;
       }
 
     /*   */
@@ -169,6 +189,32 @@
       right: 0;
       margin: 6px 20px;
     }
+    .fa-facebook{
+      font-size: 25px;
+      color: #316FF6;
+    }
+    #you .fa-facebook{
+      padding: 7px;
+      border-radius: 30px;
+    }
+    .fa-instagram{
+      font-size: 25px;
+      color:  #cd486b;
+    }
+    #you .fa-instagram{
+      padding: 7px;
+      border-radius: 10px;
+    }
+    .fa-telegram{
+      font-size: 25px;
+      color: #0088cc;
+    }
+    #you .fa-youtube{
+      font-size: 25px;
+      background-color: #FF0000;
+      border-radius: 10px;
+    }
+ 
   }
 
   .user{
@@ -208,7 +254,7 @@
     background: transparent;
   }
   .box a .fa{
-    color: #1daf;
+    /* color: #1daf; */
     font-size: 15px;
     align-items: center;
     justify-content: center;
@@ -281,6 +327,6 @@ p {
   background-color: #e05d2b;
 }
 /* ion-icon{ */
-  font-size: 50px;
+  /* font-size: 50px; */
 
 /* } */
