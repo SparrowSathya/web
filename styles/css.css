@@ -113,8 +113,8 @@
     }
     .nav > .nav-btn > label {
       display: inline-block;
-      width: 50px;
-      height: 50px;
+      width: 43px;
+      height: 47px;
       padding: 12px;
     }
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
@@ -122,8 +122,8 @@
     }
     .nav > .nav-btn > label > span {
       display: block;
-      width: 25px;
-      height: 10px;
+      width: 23px;
+      height: 8px;
       border-top: 2px solid #eee;
     }
     .nav > .nav-header > .nav-title{
